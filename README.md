@@ -1,4 +1,4 @@
-# DBAL: Discriminator-Based Active Learning
+# DBAL: Discriminator-Based Active Learning (Discriminator is a Strong Data Sampler)
 
 This repository describes DBAL (Discriminator-Based Active Learning), a novel active learning strategy that uses a discriminator to dynamically select the most valuable data for labeling based on a model's output distribution.
 
