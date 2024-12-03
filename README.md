@@ -2,6 +2,8 @@
 
 This repository implements DBAL (Discriminator-Based Active Learning), a novel active learning strategy that uses a discriminator to dynamically select the most valuable data for labeling based on a model's output distribution.
 
+> **Important Notice**: Due to confidentiality requirements, the source code is currently not available for public release. This repository serves as a technical documentation of the DBAL methodology and implementation details. We will consider making the code public in the future.
+
 ## Overview
 
 Active learning aims to achieve optimal model performance with minimal labeled data by intelligently selecting the most informative samples for labeling. DBAL improves upon existing approaches by:
