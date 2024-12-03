@@ -64,18 +64,6 @@ DBAL outperforms several baseline methods:
 - +3.17% improvement over Random Sampling
 - +62.53% improvement over VAAL
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{li2024discriminator,
-  title={Discriminator is a Strong Data Sampler},
-  author={Li, Gengsheng},
-  year={2024}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -83,7 +71,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgments
-
-This research was conducted at the Laboratory of Brain Atlas and Brain-inspired Intelligence, Institute of Automation, Chinese Academy of Sciences.
