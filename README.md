@@ -8,6 +8,7 @@ This repository serves as a technical documentation of DBAL (Discriminator-Based
 
 ## Running DBAL Demo Version
 You need to put the downloaded and decompressed 'data_demo' file (which is a subset of the original dataset) on the same directory with 'dbal_demo.ipynb', then you can simply run 'dbal_demo.ipynb' for testing DBAL. :-D
+
 If you haven't downloaded 'data_demo' yet, please download it from https://pan.baidu.com/s/1OJ03_hJ0GL3bcDKais135Q (verification code: fvvb).
 
 ## Project Dependencies
