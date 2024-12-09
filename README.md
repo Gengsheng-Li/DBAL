@@ -1,10 +1,27 @@
 # DBAL: Discriminator-Based Active Learning (Discriminator is a Strong Data Sampler)
 
-This repository describes DBAL (Discriminator-Based Active Learning), a novel active learning strategy that uses a discriminator to dynamically select the most valuable data for labeling based on a model's output distribution.
+This repository serves as a technical documentation of DBAL (Discriminator-Based Active Learning), a novel active learning strategy that uses a discriminator to dynamically select the most valuable data for labeling based on its output distribution.
 
-> **Important Notice**: Due to **confidentiality requirements**, the source code is **currently not available for public release**. This repository serves as a technical documentation of the DBAL methodology and implementation details. We will **consider making the code public in the future**.
+> **Important Notice**: Due to **confidentiality requirements**, the source code is **currently not available for public release**. However, a demo version jupyter script 'dbal_demo.ipynb' is opened for checking the feasibility of this project. We will **consider making the code public in the future**. Additionally, only a small subset of the data is offered here, due to license consideration. Thank you very much for your understanding. :-D
+> **重要提示**：由于**保密要求**，源代码**目前不对外公开发布**。然而，我们提供了一个用作演示的 jupyter 脚本 'dbal_demo.ipynb' 以便您检查本项目的可行性。我们将**考虑在未来公开代码**。此外，考虑到许可证等因素，这里仅提供数据的一小部分子集。非常感谢您的理解。:-D
 
-## Overview
+## Running DBAL Demo Version
+You need to put the downloaded and decompressed 'data_demo' file (which is a subset of the original dataset) on the same directory with 'dbal_demo.ipynb', then you can simply run 'dbal_demo.ipynb' for testing DBAL. :-D
+If you haven't downloaded 'data_demo' yet, please download it from https://pan.baidu.com/s/1OJ03_hJ0GL3bcDKais135Q (verification code: fvvb).
+
+## Project Dependencies
+Required Python packages:
+- numpy
+- pandas
+- torch
+- torchvision
+- Pillow
+- tqdm
+- matplotlib
+
+Note: Other imported packages like os, shutil, glob are Python standard libraries which don't require additional installation.
+
+## Overview of DBAL
 
 Active learning aims to achieve optimal model performance with minimal labeled data by intelligently selecting the most informative samples for labeling. DBAL improves upon existing approaches by:
 
